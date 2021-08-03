@@ -1,0 +1,37 @@
+.graph-div {
+    width: 70%;
+    float: left;
+}
+
+.date-form {
+    width: 20%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    border-radius: 1px;
+}
+
+.date-picker{
+    width: 200;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+.date-box {
+    margin-top: 5%;
+    padding-top: 10px;
+    height: 70px;
+}
+
+.radio-group{
+    margin: auto;
+    justify-content: center;
+}
+
+.submit-button{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
