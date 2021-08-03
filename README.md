@@ -1,0 +1,1 @@
+scentroid-stock-app
