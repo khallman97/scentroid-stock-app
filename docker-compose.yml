@@ -1,0 +1,18 @@
+version: '3'
+
+services: 
+    stock-api:
+        build: ./API
+        volumes: 
+            - ./API:/user/src/app
+        ports:
+            - 5001:80
+    stock-front:
+        build: ./Front-End/stock-results-front-end/
+        volumes: 
+            - ./Front-End/stock-results-front-end/:/STOCK-RESULTS-FRONT-END
+        ports:
+            - 3000:3000
+        depends_on: 
+            - stock-api
+        
